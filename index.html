@@ -1,0 +1,711 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>CoolMate - Giải pháp mua sắm cả tủ đồ cho nam giới - Cool Mate</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <!-- Favicon -->
+    <link href="images/favicon-96x96.png" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com/s/sourcecodepro/v13/HI_XiYsKILxRpg3hIP6sJ7fM7PqtvszDvOcq7Gq0DDzS.woff2"
+        rel="stylesheet">
+
+    <!-- CSS Libraries -->
+    <link href="bootstrap-4/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="lib/slick/slick.css" rel="stylesheet">
+    <link href="lib/slick/slick-theme.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Top bar Start -->
+    <div class="top-bar">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6">
+                    <i class="fa fa-envelope"></i>
+                    support@email.com
+                </div>
+                <div class="col-sm-6">
+                    <i class="fa fa-phone-alt"></i>
+                    +012-345-6789
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Top bar End -->
+
+    <!-- Nav Bar Start -->
+    <div class="nav">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+                <a href="#" class="navbar-brand">MENU</a>
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav mr-auto">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="all-product-list.html" class="nav-item nav-link active">Sales</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">ÁO THUN</a>
+                            <div class="dropdown-menu">
+                                <a href="poloPique-list.html" class="dropdown-item">Áo Polo Pique</a>
+                                <a href="cottonngan-list.html" class="dropdown-item">Áo Cotton Compact tay ngắn</a>
+                                <a href="cottondai-list.html" class="dropdown-item">Áo Cotton Compact tay dài</a>
+                                <a href="maxcool-list.html" class="dropdown-item">Áo thể thao nam MaxCool</a>
+                            </div>
+                        </div>
+                        <div class="nav-item dropdown">
+                            <a href="quan-list.html" class="nav-link dropdown-toggle" data-toggle="dropdown">QUẦN</a>
+                            <div class="dropdown-menu">
+                                <a href="quan-list.html" class="dropdown-item">QUẦN SHORT, QUẦN ĐÙI</a>
+                            </div>
+                        </div>
+                        <a href="tatvo-list.html" class="nav-item nav-link">TẤT VỚ</a>
+                        <a href="phukien.html" class="nav-item nav-link">PHỤ KIỆN</a>
+                    </div>
+                    <div class="navbar-nav ml-auto">
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">TÀI KHOẢN</a>
+                            <div class="dropdown-menu">
+                                <a href="login.html" class="dropdown-item">ĐĂNG NHẬP</a>
+                                <a href="register.html" class="dropdown-item">ĐĂNG KÝ</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Nav Bar End -->
+
+    <!-- Bottom Bar Start -->
+    <div class="bottom-bar">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="search">
+                        <input type="text" placeholder="Tìm kiếm">
+                        <a href="all-product-list.html"><button><i class="fa fa-search"></i></button></a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="user">
+                        <a href="wishlist.html" class="btn wishlist">
+                            <i class="fa fa-heart"></i>
+                            <span>(5)</span>
+                        </a>
+                        <a href="cart.html" class="btn cart">
+                            <i class="fa fa-shopping-cart"></i>
+                            <span>(5)</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Bottom Bar End -->
+
+    <!-- Main Slider Start -->
+    <div id="demo" class="carousel slide" data-ride="carousel" style="margin-bottom: 30px;">
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/slider2.jpg" alt="slide2">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider3.jpg" alt="slide3">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slider4.jpg" alt="slide4">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+    <!-- Main Slider End-->
+
+    <!-- Call to Action Start -->
+    <div class="call-to-action">
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h1>GỌI MUA HÀNG, HỖ TRỢ (08:30 - 21:00)</h1>
+                </div>
+                <div class="col-md-4">
+                    <a href="tel:0123456789">+012-345-6789</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Call to Action End -->
+
+    <!-- Featured Product Start -->
+    <div class="featured-product product">
+        <div class="container-fluid">
+            <div class="section-header">
+                <h1>Sản phẩm nổi bật</h1>
+            </div>
+            <div class="row align-items-center product-slider product-slider-4">
+                <!--product 1 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="product-detail-aopolo.html">Áo Polo Pique thế hệ mới - Xanh rêu</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail-aopolo.html">
+                                <img src="images/ao_polo/ao_1_375x425.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="product-detail-aopolo.html"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>299.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 2 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="product-detail-aopolo.html">Áo Polo Pique thế hệ mới - Đen</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_polo/ao_3_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="product-detail-aopolo.html"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>299.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 3 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Áo thun cổ tròn Cotton Compact</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_cotton/aoc_1_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>199.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 4 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Áo Polo Pique dài tay chống bám bụi</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_cotton_dai/aod_1_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>299.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 5 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Quần Short nỉ nam Active Gem màu xám</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/quan/q_1_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>249.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured Product End -->
+
+    <!-- Recent Product Start -->
+    <div class="recent-product product">
+        <div class="container-fluid">
+            <div class="section-header">
+                <h1>Sản phẩm mới (NEW)</h1>
+            </div>
+            <div class="row align-items-center product-slider product-slider-4">
+                <!--product 1 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Áo thun cổ tròn Cotton Compact Premium in Happy Man</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_cotton/aoc_3_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>179.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 2 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Áo thun cổ tròn Cotton Compact Premium in I'm Single</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_cotton/aoc_4_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>179.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 3 -->
+
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Áo thun nam in Coolmate Cotton Compact phiên bản Premium</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/ao_cotton/aoin_TTCV_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>259.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+                <!--product 4 -->
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Quần nỉ nam Active Gem giữ nhiệt màu xám - Shark Grey</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/quan/q_4_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>279.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!--product 5 -->
+                <div class="col-lg-3">
+                    <div class="product-item">
+                        <div class="product-title">
+                            <a href="#">Quần nỉ nam Active Gem giữ nhiệt màu đen - Black Passion</a>
+                            <div class="ratting">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="product-image">
+                            <a href="product-detail.html">
+                                <img src="images/quan/q_5_585x663.jpg" alt="Product Image">
+                            </a>
+                            <div class="product-action">
+                                <a href="cart.html"><i class="fa fa-cart-plus"></i></a>
+                                <a href="wishlist.html"><i class="fa fa-heart"></i></a>
+                                <a href="#"><i class="fa fa-search"></i></a>
+                            </div>
+                        </div>
+                        <div class="product-price">
+                            <h3>279.000<span>đ</span></h3>
+                            <a class="btn" href="cart.html"><i class="fa fa-shopping-cart"></i>Chọn mua</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Recent Product End -->
+    <!-- About us start -->
+    <div class="container" style="margin-top:50px" id="rcorners4">
+        <div class="row">
+            <div class="col-md-5">
+                <p style="padding: 20px;">
+                <h1>CÂU CHUYỆN VỀ<br>#COOLMATE</h1>
+                </p>
+            </div>
+            <div class="col-md-7">
+                <p style="padding: 15px"><q>Câu chuyện được sinh ra từ tủ đồ của các cánh mày râu, nơi được cho là ‘1
+                        màu’, ‘đơn điệu’ và ‘ít được chăm chút’. Bởi lẽ thực tế, việc mua sắm đối với các anh là không
+                        thường xuyên, ngại phải đi nhiều nơi để mua đủ những đồ mình muốn, đặc biệt là những món đồ cơ
+                        bản nhất. Coolmate hiểu được rằng những chiếc áo phông, đôi tất hay quần lót sẽ không bao giờ
+                        thiếu vắng trong tủ đồ và bằng chính sứ mệnh của mình, CoolMate sẽ dần thay đổi thói quen của
+                        các anh bằng cách thức mua hàng tiện lợi nhất và những sản phẩm chất lượng tốt nhất.</q></p>
+            </div>
+        </div>
+    </div>
+    <!-- About us end -->
+    <!-- Question Start-->
+    <div class="container" style="margin-top:20px" id="rcorners4">
+        <div class="row">
+            <div class="col-lg-12">
+                <p>
+                <h3 style="text-align: center;">Các câu hỏi thường gặp</h3>
+                </p>
+
+                <div id="accordion" style="padding: 10px; padding-bottom: 20px;">
+                    <!-- 1 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                01. Chất liệu sản phẩm của Coolmate?
+                            </a>
+                        </div>
+
+                        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Các sản phẩm của <mark>#CoolMate</mark> được chọn lựa kỹ càng trên các chất liệu tốt
+                                nhất nhằm mang lại sự thoái mái cho người mặc, từ sợi Cotton Compact, Cotton Organic ,
+                                Spandex co giãn hay Rubber bền bỉ.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 2 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                02. Coolmate có cửa hàng không?
+                            </a>
+                        </div>
+
+                        <div id="collapseTwo" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Sự khác biệt của Coolmate với các thương hiệu thời trang khác là chúng tôi không có cửa
+                                hàng. Thay vì đầu tư
+                                hàng trăm triệu làm cửa hàng thật to, thì chúng tôi dùng số tiền đó vào nâng cao chất
+                                lượng sản phẩm, và
+                                giảm giá bán.
+                                Suy cho cùng Coolmate nghĩ tin rằng đàn ông không thích phải mất hàng giờ để vào cửa
+                                hàng chỉ đi mua mấy đồ
+                                mặc cơ bản hằng ngày đâu.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 3 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse3">
+                                03. Chi phí ship hàng như thế nào?
+                            </a>
+                        </div>
+
+                        <div id="collapse3" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Tất cả các đơn hàng trên 300.000VNĐ đều được miễn phí chi phí vận chuyển, trên toàn
+                                quốc. Giá bạn thấy trên website là tất cả những gì bạn phải trả.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 4 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse4">
+                                04. Các sản phẩm được sản xuất ở đâu?
+                            </a>
+                        </div>
+
+                        <div id="collapse4" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                100% sản phẩm Coolmate được sản xuất tại Việt Nam. Chúng tôi hợp tác với nhiều nhà thiết
+                                kế
+                                từ Nhật Bản, Hàn Quốc để đổi mới kiểu dáng cũng như cập nhật công nghệ sản xuất mới, và
+                                tất
+                                cả sẽ được gia công trong xưởng của chúng tôi tại Việt Nam.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 5 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse5">
+                                05. Sản phẩm mua rồi có được đổi trả hay không?
+                            </a>
+                        </div>
+
+                        <div id="collapse5" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Có. Chúng tôi có chính sách đổi trả trong vòng 45 ngày, vì bất cứ lý do gì.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 6 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse6">
+                                06. Tôi có thể mua lẻ từng sản phẩm không?
+                            </a>
+                        </div>
+
+                        <div id="collapse6" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                Tất nhiên là có. Hình thức mua theo box là cách chúng tôi khuyến khích bạn mua nhiều hơn
+                                với
+                                giá rẻ hơn. Chúng tôi vẫn luôn có từng sản phẩm lẻ trên website. Bạn hãy chọn món đồ món
+                                mua
+                                trên thanh menu Sản Phẩm.
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 7 -->
+                    <div class="card">
+                        <div class="card-header">
+                            <a class="card-link" data-toggle="collapse" href="#collapse7">
+                                07. Bao lâu kể từ khi đặt hàng thành công tôi sẽ nhận được hàng?
+                            </a>
+                        </div>
+
+                        <div id="collapse7" class="collapse show" data-parent="#accordion">
+                            <div class="card-body">
+                                <p>- Tại Hà Nội: 2-4h nếu bạn đặt hàng giao nội thành trong thời gian từ 8h sáng đến 8h
+                                    tối.
+                                    Sau 1 ngày nếu bạn ở ngoại thành HN.</p>
+                                <p>- Tại Hồ Chí Minh: Bạn sẽ nhận được hàng sau 1-3 ngày.</p>
+                                <p>- Tại tỉnh thành khác: Bạn sẽ nhận được hàng sau 2-4 ngày làm việc.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Question End -->
+
+    <!-- Footer Start -->
+    <div class="footer">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="images/logoend.png">
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>ĐỊA CHỈ</h2>
+                        <div class="contact-info">
+                            <p><i class="fa fa-map-marker"></i>123 E Store</p>
+                            <p><i class="fa fa-envelope"></i>email@example.com</p>
+                            <p><i class="fa fa-phone"></i>+123-456-7890</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer-widget">
+                        <h2>LIKE COOLMATE</h2>
+                        <div class="contact-info">
+                            <div class="social">
+                                <a href=""><i class="fab fa-twitter"></i></a>
+                                <a href=""><i class="fab fa-facebook-f"></i></a>
+                                <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                <a href=""><i class="fab fa-instagram"></i></a>
+                                <a href=""><i class="fab fa-youtube"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="row payment align-items-center">
+                <div class="col-md-6">
+                    <div class="payment-method">
+                        <h2>We Accept:</h2>
+                        <img src="images/payment-method.png" alt="Payment Method" />
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="payment-security">
+                        <h2>Secured By:</h2>
+                        <img src="images/godaddy.svg" alt="Payment Security" />
+                        <img src="images/norton.svg" alt="Payment Security" />
+                        <img src="images/ssl.svg" alt="Payment Security" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-4/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/slick/slick.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
